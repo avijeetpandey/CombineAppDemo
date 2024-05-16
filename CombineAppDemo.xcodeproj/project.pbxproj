@@ -11,6 +11,8 @@
 		8A958B952BF69138000B6929 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A958B942BF69138000B6929 /* ContentView.swift */; };
 		8A958B972BF69139000B6929 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A958B962BF69139000B6929 /* Assets.xcassets */; };
 		8A958B9A2BF69139000B6929 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A958B992BF69139000B6929 /* Preview Assets.xcassets */; };
+		8A958BA12BF691F1000B6929 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A958BA02BF691F1000B6929 /* Model.swift */; };
+		8A958BA32BF69371000B6929 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A958BA22BF69371000B6929 /* PostViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		8A958B942BF69138000B6929 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8A958B962BF69139000B6929 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A958B992BF69139000B6929 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8A958BA02BF691F1000B6929 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8A958BA22BF69371000B6929 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				8A958B942BF69138000B6929 /* ContentView.swift */,
 				8A958B962BF69139000B6929 /* Assets.xcassets */,
 				8A958B982BF69139000B6929 /* Preview Content */,
+				8A958BA02BF691F1000B6929 /* Model.swift */,
+				8A958BA22BF69371000B6929 /* PostViewModel.swift */,
 			);
 			path = CombineAppDemo;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A958BA32BF69371000B6929 /* PostViewModel.swift in Sources */,
+				8A958BA12BF691F1000B6929 /* Model.swift in Sources */,
 				8A958B952BF69138000B6929 /* ContentView.swift in Sources */,
 				8A958B932BF69138000B6929 /* CombineAppDemoApp.swift in Sources */,
 			);
